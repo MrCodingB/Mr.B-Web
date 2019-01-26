@@ -1,5 +1,9 @@
-html {
+.homepage {
     background-image: url('websitePictures/MrB-logo-Background.png');
+    background-repeat: no-repeat;
+}
+.infopage {
+    background-image: url('websitePictures/MrB-Background.png');
     background-repeat: no-repeat;
 }
 .pagelist a {
