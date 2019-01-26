@@ -6,8 +6,16 @@
     background-image: url('websitePictures/MrB-Background.png');
     background-repeat: no-repeat;
 }
+
+.pagelist {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    line-height: 150px;
+    padding-left: 175px;
+}
 .pagelist a {
     color:black;
+    font-size: 100px;
 }
 .pagelist a:visited {
     color:black;
@@ -15,6 +23,7 @@
 .pagelist a:hover {
     color:rgb(50, 50, 50);
 }
+
 .topnav {
     overflow: hidden;
     padding-left: 10px;
@@ -35,15 +44,5 @@
     color: orange;
 }
 .topnav a:active {
-    color: red;
-}
-.topnavlogo {
-    text-align: left;
-}
-
-.pagelist {
-    font-family: 'Times New Roman';
-    font-size: 100px;
-    line-height: 150px;
-    padding-left: 175px;
+    color: lightgrey;
 }
