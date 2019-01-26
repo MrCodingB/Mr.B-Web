@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .homepage {
     background-image: url('websitePictures/MrB-logo-Background.png');
     background-repeat: no-repeat;
@@ -25,9 +30,10 @@
 }
 
 .topnav {
+    font-family: 'Antonio';
     overflow: hidden;
     padding-left: 10px;
-    padding-top: 9px;
+    padding-top: 10px;
     padding-bottom: 7px;
     margin: 0;
     list-style-type: none;
@@ -35,14 +41,46 @@
     font-size: 25px;
 }
 .topnav a {
-    text-align: right;
     color: white;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    text-decoration: none;
 }
 .topnav a:hover { 
     color: orange;
 }
-.topnav a:active {
-    color: lightgrey;
+.topnav a.active {
+    color: rgb(168, 168, 168);
+}
+
+.meTitleContainer {
+    position: relative;
+    text-align: center;
+    height: 85%;
+}
+.mePictureContainer {
+    position: absolute;
+    top: 60%;
+    height: 130%;
+    width: 100%;
+    padding-left: 10%;
+}
+.meTextConatainer {
+    position: absolute;
+    top: 140%;
+    left: 30%;
+    text-align: left;
+    width: 50%;
+    height: 60%;
+}
+.meTitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Garamond';
+    font-size: 125px;
+    height: 40%;
+    padding: 100px, 20px;
 }
