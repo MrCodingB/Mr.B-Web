@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
+/*---------------------------------------This is for all the page types---------------------------------*/
 .homepage {
     background-image: url('websitePictures/MrB-logo-Background.png');
     background-repeat: no-repeat;
@@ -11,24 +11,10 @@ html, body {
     background-image: url('websitePictures/MrB-Background.png');
     background-repeat: no-repeat;
 }
-
-.pagelist {
-    font-family: 'Times New Roman';
-    font-size: 25px;
-    line-height: 150px;
-    padding-left: 175px;
+.listingpage{
+    font-family: 'Tahoma';
 }
-.pagelist a {
-    color:black;
-    font-size: 100px;
-}
-.pagelist a:visited {
-    color:black;
-}
-.pagelist a:hover {
-    color:rgb(50, 50, 50);
-}
-
+/*-----------------------------------------------This is for the Top-Navigation-Bar--------------------------------------------*/
 .topnav {
     font-family: 'Antonio';
     overflow: hidden;
@@ -52,12 +38,41 @@ html, body {
 .topnav a.active {
     color: rgb(168, 168, 168);
 }
-
-.meTitleContainer {
+/*-----------------------------------This is for the Picture Titles---------------------------------*/
+.picTitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Garamond';
+    font-size: 125px;
+    height: 40%;
+    padding: 100px, 20px;
+}
+.TitleContainer {
     position: relative;
     text-align: center;
     height: 85%;
 }
+/*--------------------------------------This is for the Homepage---------------------------------------*/
+.pagelist {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    line-height: 150px;
+    padding-left: 175px;
+}
+.pagelist a {
+    color:black;
+    font-size: 100px;
+}
+.pagelist a:visited {
+    color:black;
+}
+.pagelist a:hover {
+    color:rgb(50, 50, 50);
+}
+/*---------------------------------------This is for the aboutMepage-----------------------------------------*/
 .mePictureContainer {
     position: absolute;
     top: 60%;
@@ -73,14 +88,27 @@ html, body {
     width: 50%;
     height: 60%;
 }
-.meTitle {
+/*-------------------------------------This is for the Listing Page(s)--------------------------------------*/
+.listingContainer {
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 10%;
+    right: 10%;
+}
+.listingpage h2 {
+    font-family:'Liberation Sans';
+}
+.listingContainer h2 a {
+    color: black;
+    text-decoration: none;
+    border-bottom: double;
+}
+.listingpage p {
     text-align: center;
-    font-family: 'Garamond';
-    font-size: 125px;
-    height: 40%;
-    padding: 100px, 20px;
+}
+.listingContainer ol li a {
+    color: blue;
+}
+.listingContainer ol li a:visited {
+    color: blue;
 }
