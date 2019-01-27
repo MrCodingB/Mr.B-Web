@@ -7,9 +7,8 @@ html, body {
     background-image: url('websitePictures/MrB-logo-Background.png');
     background-repeat: no-repeat;
 }
-.infopage {
-    background-image: url('websitePictures/MrB-Background.png');
-    background-repeat: no-repeat;
+.contactpage {
+    font-family: 'Times New Roman'
 }
 .listingpage{
     font-family: 'Tahoma';
@@ -111,4 +110,44 @@ html, body {
 }
 .listingContainer ol li a:visited {
     color: blue;
+}
+/*------------------------------------------------This fo the Contact Page---------------------------------------*/
+.contactContainer {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+}
+.emailContainer {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 50%;
+    bottom: 250%;
+}
+.othersContainer {
+    position: absolute;
+    top: 250px;
+    left: 10%;
+    right: 10%;
+}
+.socialMediaContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 10%;
+}
+.contactContainer a {
+    text-decoration: none;
+}
+.contactContainer a:visited {
+    color: blue;
+}
+.contactContainer h2 {
+    border-bottom: black double;
+    font-size: 25px;
+}
+.contactContainer li {
+    font-size: 20px;
+    line-height: 30px;
 }
