@@ -13,7 +13,7 @@ html, body {
 .listingpage{
     font-family: 'Tahoma';
 }
-/*-----------------------------------------------This is for the Top-Navigation-Bar--------------------------------------------*/
+/*-----------------------------------------------This is for the Top-Navigation-Bar-----------------------*/
 .topnav {
     font-family: 'Antonio';
     overflow: hidden;
@@ -72,20 +72,20 @@ html, body {
     color:rgb(50, 50, 50);
 }
 /*---------------------------------------This is for the aboutMepage-----------------------------------------*/
-.mePictureContainer {
+.meContainer {
     position: absolute;
     top: 60%;
     height: 130%;
     width: 100%;
     padding-left: 10%;
 }
-.meTextConatainer {
+.meTextContainer {
     position: absolute;
-    top: 140%;
     left: 30%;
     text-align: left;
-    width: 50%;
+    width: 40%;
     height: 60%;
+    padding-top: 10%;
 }
 /*-------------------------------------This is for the Listing Page(s)--------------------------------------*/
 .listingContainer {
