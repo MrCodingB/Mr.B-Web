@@ -141,7 +141,11 @@ html, body {
     text-decoration: none;
 }
 .contactContainer a:visited {
+    text-decoration: none;
     color: blue;
+}
+.contactContainer a:hover {
+    color: rgb(255, 120, 0);
 }
 .contactContainer h2 {
     border-bottom: black double;
