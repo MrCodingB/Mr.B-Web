@@ -155,3 +155,15 @@ html, body {
     font-size: 20px;
     line-height: 30px;
 }
+
+.discordWidget {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+}
+
+.guildedWidget {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+}
