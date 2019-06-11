@@ -105,12 +105,17 @@ html, body {
 .listingpage p {
     text-align: center;
 }
-.listingContainer ol li a {
+.listingContainer a {
+    text-decoration: none;
+}
+.listingContainer a:visited {
+    text-decoration: none;
     color: blue;
 }
-.listingContainer ol li a:visited {
-    color: blue;
+.listingContainer a:hover {
+    color: rgb(255, 120, 0);
 }
+
 /*------------------------------------------------This fo the Contact Page---------------------------------------*/
 .contactContainer {
     position: absolute;
