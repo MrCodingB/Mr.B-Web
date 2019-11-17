@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    margin: 0;
+    margin: 0%;
 }
 /*---------------------------------------This is for all the page types---------------------------------*/
 .homepage {
@@ -76,7 +76,7 @@ html, body {
     position: absolute;
     top: 60%;
     height: 130%;
-    width: 100%;
+    width: 90%;
     padding-left: 10%;
 }
 .meTextContainer {
@@ -102,15 +102,23 @@ html, body {
     text-decoration: none;
     border-bottom: double;
 }
+.listingContainer h2 a:visited {
+    color: black;
+}
 .listingpage p {
     text-align: center;
 }
-.listingContainer ol li a {
+.listingContainer a {
+    text-decoration: none;
+}
+.listingContainer a:visited {
+    text-decoration: none;
     color: blue;
 }
-.listingContainer ol li a:visited {
-    color: blue;
+.listingContainer a:hover {
+    color: rgb(255, 120, 0);
 }
+
 /*------------------------------------------------This fo the Contact Page---------------------------------------*/
 .contactContainer {
     position: absolute;
@@ -154,4 +162,16 @@ html, body {
 .contactContainer li {
     font-size: 20px;
     line-height: 30px;
+}
+
+.discordWidget {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+}
+
+.guildedWidget {
+    position: absolute;
+    top: 200px;
+    left: 5%;
 }
