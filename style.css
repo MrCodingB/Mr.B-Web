@@ -4,7 +4,7 @@ html, body {
 }
 /*---------------------------------------This is for all the page types---------------------------------*/
 .homepage {
-    background-image: url('websitePictures/MrB-logo-Background.png');
+    background-image: url('assets/MrB-logo-Background.png');
     background-repeat: no-repeat;
 }
 .contactpage {
