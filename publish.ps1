@@ -1,4 +1,4 @@
-$OutputDir = "$PSScriptRoot/docs"
+$OutputDir = "$PSScriptRoot/www"
 $BuildDir = "$PSScriptRoot/build"
 
 Write-Host "Publishing to '$OutputDir'"
