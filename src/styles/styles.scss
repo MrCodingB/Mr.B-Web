@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 0.625rem;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.list-page {
+  font-family: "Tahoma";
+
+  h2 {
+    font-family: "Liberation Sans";
+  }
+
+  .listing-container {
+    width: 75%;
+    margin: 1rem auto 2rem;
+
+    h2 {
+      margin: 0.5rem 0;
+
+      a {
+        border-bottom: double;
+
+        &:visited {
+          color: black;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      &:visited {
+        text-decoration: none;
+        color: blue;
+      }
+
+      &:hover {
+        color: rgb(255, 120, 0);
+      }
+    }
+
+    li {
+      margin: 0.25rem 0;
+    }
+
+    .description {
+      margin-bottom: 5rem;
+      text-align: center;
+    }
+  }
+}

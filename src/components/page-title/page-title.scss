@@ -1,0 +1,17 @@
+.page-title {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60rem;
+  background-blend-mode: overlay;
+  background: no-repeat center/cover url("../../assets/MrB-Bg.png"),
+    rgba(#fff, 0.25);
+
+  span {
+    font-family: "Garamond";
+    font-size: 12.5rem;
+    margin: 2rem;
+  }
+}

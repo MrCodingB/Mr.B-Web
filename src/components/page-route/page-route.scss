@@ -1,0 +1,13 @@
+.page-route {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
+  .app-content {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

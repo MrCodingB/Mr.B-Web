@@ -1,0 +1,51 @@
+.about-page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0;
+    height: min-content;
+    text-align: center;
+    font-family: "Times New Roman";
+
+    .image {
+      display: flex;
+      flex-direction: column;
+      height: min-content;
+      width: 75%;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
+
+      .caption {
+        font-size: 1.8rem;
+        text-align: left;
+      }
+    }
+
+    .about-text-container {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      width: 50%;
+      margin: 0 auto;
+      padding-top: 10rem;
+
+      h1 {
+        font-family: "Tangerine";
+        color: #3c3c3c;
+      }
+
+      p {
+        font-size: 2rem;
+        line-height: 3rem;
+      }
+    }
+  }
+}
