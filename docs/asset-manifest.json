@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d532953.chunk.css",
+    "main.js": "/static/js/main.7fd6b1ad.chunk.js",
+    "main.js.map": "/static/js/main.7fd6b1ad.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0c677975.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0c677975.js.map",
+    "static/js/2.ccdffee5.chunk.js": "/static/js/2.ccdffee5.chunk.js",
+    "static/js/2.ccdffee5.chunk.js.map": "/static/js/2.ccdffee5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d532953.chunk.css.map": "/static/css/main.0d532953.chunk.css.map",
+    "static/js/2.ccdffee5.chunk.js.LICENSE.txt": "/static/js/2.ccdffee5.chunk.js.LICENSE.txt",
+    "static/media/AnonymousMe.ef08e25c.png": "/static/media/AnonymousMe.ef08e25c.png",
+    "static/media/page-title.scss": "/static/media/MrB-Bg.f3f409e9.png",
+    "static/media/home.scss": "/static/media/MrB-Logo-Bg.00e70596.png",
+    "static/media/MrB-Logo.6131485b.png": "/static/media/MrB-Logo.6131485b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c677975.js",
+    "static/js/2.ccdffee5.chunk.js",
+    "static/css/main.0d532953.chunk.css",
+    "static/js/main.7fd6b1ad.chunk.js"
+  ]
+}
