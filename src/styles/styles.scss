@@ -1,3 +1,8 @@
+@import "colors";
+@import "container";
+@import "links";
+@import "pages";
+
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +17,8 @@ body,
 }
 
 html {
-  font-size: 0.625rem;
+  font-size: 62.5%;
+  font-family: sans-serif;
 }
 
 body {
@@ -27,52 +33,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.list-page {
-  font-family: "Tahoma";
-
-  h2 {
-    font-family: "Liberation Sans";
-  }
-
-  .listing-container {
-    width: 75%;
-    margin: 1rem auto 2rem;
-
-    h2 {
-      margin: 0.5rem 0;
-
-      a {
-        border-bottom: double;
-
-        &:visited {
-          color: black;
-        }
-      }
-    }
-
-    a {
-      text-decoration: none;
-      color: black;
-
-      &:visited {
-        text-decoration: none;
-        color: blue;
-      }
-
-      &:hover {
-        color: rgb(255, 120, 0);
-      }
-    }
-
-    li {
-      margin: 0.25rem 0;
-    }
-
-    .description {
-      margin-bottom: 5rem;
-      text-align: center;
-    }
-  }
 }

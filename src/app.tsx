@@ -1,25 +1,30 @@
-import React from 'react';
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
-import PageRoute from './components/page-route/page-route';
-import AboutPage from './pages/about/about';
-import CodingPage from './pages/coding/coding';
-import OtherPage from './pages/other/other';
-import ContactPage from './pages/contact/contact';
-import HomePage from './pages/home/home';
+import React from "react";
+import { HashRouter, Redirect, Route, Switch } from "react-router-dom";
+import PageRoute from "./components/page-route/page-route";
+import { routes } from "./routes";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <PageRoute exact path='/home' title='Home' component={HomePage} />
-        <PageRoute exact path='/about' title='About Me' component={AboutPage} />
-        <PageRoute exact path='/coding' title='Coding Projects' component={CodingPage} />
-        <PageRoute exact path='/other' title='Other Projects' component={OtherPage} />
-        <PageRoute exact path='/contact' title='Contact' component={ContactPage} />
-        <Route path='/'>
-          <Redirect to='/home' />
+        {routes
+          .filter((r) => !r.disabled)
+          .map((r, i) => {
+            return (
+              <PageRoute
+                key={i}
+                exact
+                path={"/" + r.path}
+                title={r.title}
+                component={r.component}
+              />
+            );
+          })}
+
+        <Route path="/">
+          <Redirect to={"/" + routes[0].path} />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

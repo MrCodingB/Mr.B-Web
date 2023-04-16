@@ -2,7 +2,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  font-family: "Times New Roman";
 
   .contact-container {
     display: flex;
@@ -15,20 +14,11 @@
       td {
         padding: 1rem;
         font-size: 2rem;
+
+        &.value-name {
+          font-style: italic;
+        }
       }
-    }
-  }
-
-  a {
-    text-decoration: none;
-
-    &:visited {
-      text-decoration: none;
-      color: blue;
-    }
-
-    &:hover {
-      color: rgb(255, 120, 0);
     }
   }
 }

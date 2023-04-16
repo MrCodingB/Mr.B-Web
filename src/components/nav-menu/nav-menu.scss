@@ -1,12 +1,15 @@
+$nav-height: 6rem;
+
 .nav-menu {
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   overflow: hidden;
-  height: 6rem;
+  height: $nav-height;
   padding: 1rem;
-  font-family: 'Antonio';
+
   background-color: black;
-  font-size: 2.5rem;
+  color: #f1f1f1;
 
   .logo {
     flex: none;
@@ -15,26 +18,89 @@
     margin-right: 1.5rem;
 
     img {
+      margin-right: 1rem;
       max-width: 100%;
       max-height: 100%;
     }
   }
 
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    padding: 0.25rem;
+  .spacer {
+    flex: 1;
+  }
 
-    &:hover {
-      color: orange;
+  .nav-toggler {
+    width: 3.5rem;
+    height: 3.5rem;
+
+    display: none;
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover .menu-icon {
+      stroke: var(--color-primary);
     }
+
+    .menu-icon {
+      stroke: #fff;
+      stroke-width: 5;
+      stroke-linecap: round;
+    }
+  }
+
+  .nav-link {
+    padding: 0 0.25rem;
+
+    display: flex;
+    align-items: center;
 
     &.active {
-      color: rgb(168, 168, 168);
+      color: #a1a1a1;
     }
 
-    & + .nav-link {
+    &+.nav-link {
       margin-left: 1.5rem;
+    }
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  @media (max-width: 1000px) {
+    .nav-toggler {
+      display: flex;
+    }
+
+    .nav-list {
+      position: fixed;
+      flex-direction: column;
+
+      width: 0;
+      height: 100vh;
+
+      padding: 0;
+
+      right: 0;
+      top: 0;
+
+      background-color: black;
+      overflow: hidden;
+
+      &.extended {
+        padding: $nav-height 1rem 1rem;
+
+        min-width: 20rem;
+        max-width: 30rem;
+        width: 80vw;
+      }
+
+      .nav-link {
+        white-space: nowrap;
+        margin-left: 2rem;
+        margin-top: 3rem;
+      }
     }
   }
 }

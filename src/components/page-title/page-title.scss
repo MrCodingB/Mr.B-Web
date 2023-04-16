@@ -1,13 +1,16 @@
 .page-title {
   flex: none;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   height: 60rem;
+
   background-blend-mode: overlay;
-  background: no-repeat center/cover url("../../assets/MrB-Bg.png"),
-    rgba(#fff, 0.25);
+  background: radial-gradient(circle, var(--color-gradient-1), var(--color-gradient-2)),
+    rgba(#fff, 0.125);
 
   span {
     font-family: "Garamond";

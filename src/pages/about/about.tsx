@@ -10,6 +10,7 @@ export default class AboutPage extends Component {
     return (
       <div className="about-page">
         <PageTitle title="Me" />
+
         <div className="about-container">
           <div className="image">
             <img src={AnonymousMe} alt="anonymous me" />
@@ -17,22 +18,25 @@ export default class AboutPage extends Component {
               Believe it or not. That's me, Mr. B!
             </span>
           </div>
-          <div className="about-text-container">
-            <h1>So...Let's get this over with, shall we?</h1>
+
+          <div className="about-text-container container">
+            <h1>Let's get this over with, shall we?</h1>
+
             <p>
-              I was born born at sometime. To be a little more specific, I was
-              born after Jesus even after Albert Einstein and also after Mark
-              Zuckerberg. I was born in the same country as: Wolfgang A. Mozart,
-              Arnold Schwarzenegger, Peter Alexander, Sigmund Freud and some
-              fascistic guy. Ok, I like developing and designing also I like
-              making and playing music. I like many more things but, you know,
-              not thaaat important things. Sooo...what else? Ahh, I like eating
-              good food...like reeaally good food and also, I enjoy playing with
-              my cat.
-              <br />
-              <br />
-              But I won't say anything else...so, yeah...you might also go to
-              the more interesting parts of my Website!
+              I was born born at sometime in the past. To be a little more
+              specific, I was born after Jesus, after Albert Einstein and even
+              after Mark Zuckerberg. I was born in the same country as Wolfgang
+              A. Mozart, Arnold Schwarzenegger, Peter Alexander, Sigmund Freud
+              and some fascist dude we'd better not talk about. I like
+              programming and designing, also making and playing music. I like
+              many more things but - you know - this page can only be so long.
+              So...what else? Ahh, I also like eating good food and enjoy
+              playing with my cat.
+            </p>
+
+            <p>
+              But I won't say anything else...so, yeah...you might as well go to
+              some of the more interesting parts of my website.
             </p>
           </div>
         </div>
