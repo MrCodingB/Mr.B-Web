@@ -1,0 +1,18 @@
+.home {
+  height: 100%;
+  width: 100%;
+
+  &,
+  >.content {
+    display: flex;
+    flex-direction: column;
+
+    overflow: auto;
+  }
+
+  .content {
+    >* {
+      margin-bottom: 4rem;
+    }
+  }
+}

@@ -1,6 +1,6 @@
-import { ProjectCategory } from '../models/projectCategory';
+import { Project } from '../models/project';
 
-export const otherProjects: ProjectCategory[] = [
+export const otherProjects: Project[] = [
   // {
   //   name: 'YouTube',
   //   href: 'https://www.youtube.com',

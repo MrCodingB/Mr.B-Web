@@ -1,0 +1,36 @@
+.title-bar {
+  font-size: 2.5rem;
+
+  display: flex;
+
+  flex: none;
+  height: 6rem;
+
+  border-bottom: 0.1rem solid #eee;
+  box-shadow: 0 0 0.4rem 0rem rgba(#000, 0.125);
+
+  z-index: 2;
+
+  .container {
+    display: grid;
+    align-content: center;
+
+    .title {
+      grid-row: 1;
+    }
+
+    .contact-list {
+      grid-row: 1;
+
+      justify-self: flex-end;
+
+      a+a {
+        margin-left: 2rem;
+
+        @media only screen and (max-width: 850px) {
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+}

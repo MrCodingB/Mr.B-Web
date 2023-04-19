@@ -1,0 +1,34 @@
+.experience-card {
+  margin: 2rem 0 1rem;
+
+  .title-wrapper {
+    display: flex;
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin-left: 0.25em;
+
+      line-height: 1.5;
+    }
+
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+
+      h3 {
+        margin: 0;
+      }
+    }
+  }
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    color: rgba(#000, 0.6);
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+}

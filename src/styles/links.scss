@@ -1,9 +1,12 @@
 a {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: underline;
+
+  color: var(--color-primary);
+
   outline: none;
 
-  &:hover {
-    color: var(--color-primary);
+  &:hover,
+  &:active {
+    color: var(--color-primary-dark);
   }
 }

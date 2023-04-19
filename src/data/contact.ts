@@ -3,22 +3,29 @@ import { ContactData } from '../models/contactData';
 export const contactDetails: ContactData[] = [
   {
     name: 'Mail',
+    icon: 'envelope-at',
     href: 'mailto:contact.social@mrb-web.at',
     content: 'contact.social@mrb-web.at'
   },
   {
-    name: 'Twitter',
-    href: 'https://twitter.com/@MrTweetingB',
-    content: '@MrTweetingB'
-  },
-  {
     name: 'GitHub',
+    icon: 'github',
     href: 'https://github.com/MrCodingB',
-    content: 'MrCodingB'
+    content: 'MrCodingB',
+    color: '#000'
   },
   {
-    name: 'Patreon',
-    href: 'https://www.patreon.com/mrpatreonizedb',
-    content: 'MrPatreonizedB'
+    name: 'LinkedIn',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/sebastian-woess',
+    content: 'Sebastian Wöß',
+    color: '#0A66C2'
+  },
+  {
+    name: 'Twitter',
+    icon: 'twitter',
+    href: 'https://twitter.com/@MrTweetingB',
+    content: '@MrTweetingB',
+    color: '#1B9DF0'
   }
 ];

@@ -1,0 +1,35 @@
+.contact-section {
+  color: #fff;
+  background: var(--color-primary);
+
+  padding: 4rem 0;
+
+  font-size: 1.8rem;
+
+  p {
+    padding: 2rem 0;
+  }
+
+  .contact-list {
+    display: flex;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 850px) {
+      flex-direction: column;
+
+      a + a {
+        margin-top: 1.5rem;
+      }
+    }
+
+    a {
+      color: #fff;
+
+      text-decoration: none;
+
+      i {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
