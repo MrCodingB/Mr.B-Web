@@ -5,9 +5,13 @@ export const educationPositions: RangedContentItem[] = [
     title: 'Linzer Technikum',
     subtitle: 'Mechatronics',
     start: 'September 2019',
-    end: 'July 2023',
+    end: 'June 2023',
     text: `
-Technical college (HTL) Paul-Hahn-Straße 4, Linzer Technikum
+Technical college (HTBLA) Paul-Hahn-Straße 4, Linzer Technikum
+
+Diploma-Thesis: Power-Meter
+
+Skipped 4th year and finished with distinction (Grade point average: 1.0).
 `
   },
   {

@@ -52,6 +52,12 @@ export default function IntroductionSection() {
           ('Matura' in Austria) coming up and my diploma thesis underway, it
           would be best to leave the company in Febuary 2023.
         </p>
+
+        <p>
+          I completed my school education at the technical college (HTBLA)
+          Paul-Hahn-Straße in Linz in 2023 with distinction
+          ('Ausgezeichneter Erfolg') and a grade point average of 1.0.
+        </p>
       </div>
     </div>
   );
