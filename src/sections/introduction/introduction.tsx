@@ -56,7 +56,7 @@ export default function IntroductionSection() {
         <p>
           I completed my school education at the technical college (HTBLA)
           Paul-Hahn-Straße in Linz in 2023 with distinction
-          ('Ausgezeichneter Erfolg') and a grade point average of 1.0.
+          ('Ausgezeichneter Erfolg') and a grade point average of 4.0.
         </p>
       </div>
     </div>

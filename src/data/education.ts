@@ -11,7 +11,7 @@ Technical college (HTBLA) Paul-Hahn-Straße 4, Linzer Technikum
 
 Diploma-Thesis: Power-Meter
 
-Skipped 4th year and finished with distinction (Grade point average: 1.0).
+Skipped 4th year and finished with distinction (Grade point average: 4.0).
 `
   },
   {
