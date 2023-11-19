@@ -1,7 +1,7 @@
 import React from "react";
-import { educationPositions } from "../../data/education";
-
 import EducationCard from '../../components/education-card/education-card';
+
+import { educationPositions } from "../../data/education";
 
 import "./education.scss";
 

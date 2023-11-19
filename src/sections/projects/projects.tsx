@@ -2,7 +2,7 @@ import React from "react";
 
 import { codingProjects } from "../../data/codingProjects";
 
-import ProjectList from "../../components/project-list/project-list";
+import ProjectCard from "../../components/project-card/project-card";
 
 import "./projects.scss";
 
@@ -11,7 +11,11 @@ export default function ProjectsSection() {
     <div className="projects-section container">
       <h1>Projects</h1>
 
-      <ProjectList projects={codingProjects} />
+      <div className="project-list">
+        {codingProjects.map((p, i) => (
+          <ProjectCard key={i} project={p} />
+        ))}
+      </div>
     </div>
   );
 }

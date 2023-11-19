@@ -1,0 +1,46 @@
+$row-height: 50rem;
+
+.project-card {
+  display: grid;
+
+  overflow: auto;
+
+  border-radius: 0.5rem;
+
+  box-shadow: 0 0 0.2rem 0 rgba(#000, 0.25);
+
+  @media (prefers-color-scheme: dark) {
+    box-shadow: none;
+    border: 0.1rem solid #444;
+    background-color: #232323;
+  }
+
+  padding: 4rem;
+  margin-bottom: 2rem;
+
+  height: 2 * $row-height;
+
+  grid-template: 'images'#{$row-height} 'spacer'8rem 'content'#{$row-height} / 1fr;
+
+  @media only screen and (min-width: 850px) {
+    height: unset;
+
+    grid-template: 'images spacer content'#{$row-height} / 1fr 8rem 1fr;
+
+    &:nth-child(odd) {
+      grid-template: 'content spacer images'#{$row-height} / 1fr 8rem 1fr;
+    }
+  }
+
+  .images {
+    grid-area: images;
+
+    display: flex;
+  }
+
+  .content {
+    grid-area: content;
+
+    overflow: auto;
+  }
+}

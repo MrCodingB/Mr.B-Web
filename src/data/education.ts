@@ -9,9 +9,11 @@ export const educationPositions: RangedContentItem[] = [
     text: `
 Technical college (HTBLA) Paul-Hahn-Straße 4, Linzer Technikum
 
-Diploma-Thesis: Power-Meter
-
 Skipped 4th year and finished with distinction (Grade point average: 4.0).
+
+**Diploma-Thesis:** Power-Meter
+
+**Skills:** Mechanical Engineering, Robotics & Automation, Electronics
 `
   },
   {
@@ -30,6 +32,8 @@ HeadStart@Informatics programme, completion of individual lectures as an adjunct
     subtitle: 'Network Track',
     start: 'September 2015',
     end: 'July 2019',
-    text: ``
+    text: `
+**Skills:** Physics, Mathematics, Informatics
+`
   }
 ];

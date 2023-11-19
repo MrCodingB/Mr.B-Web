@@ -1,4 +1,7 @@
 .title-bar {
+  position: sticky;
+  top: 0;
+
   font-size: 2.5rem;
 
   display: flex;
@@ -9,7 +12,15 @@
   border-bottom: 0.1rem solid #eee;
   box-shadow: 0 0 0.4rem 0rem rgba(#000, 0.125);
 
-  z-index: 2;
+  @media (prefers-color-scheme: dark) {
+    box-shadow: none;
+    border-bottom: none;
+    background-color: #121212;
+
+    .bi-github {
+      color: #f1f1f1;
+    }
+  }
 
   .container {
     display: grid;

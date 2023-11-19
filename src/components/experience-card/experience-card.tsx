@@ -22,7 +22,7 @@ export default class ExperienceCard extends Component<ExperienceCardProperties> 
           <h3>at {this.experience.subtitle}</h3>
         </div>
 
-        <h4>
+        <h4 className="subtle">
           {this.experience.start} - {this.experience.end ?? "present"}
         </h4>
 

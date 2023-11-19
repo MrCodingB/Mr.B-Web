@@ -2,3 +2,30 @@
   --color-primary: #ff7800;
   --color-primary-dark: #df6800;
 }
+
+html,
+body {
+  color: #212529;
+  background-color: #fff;
+
+  code {
+    color: #d63384;
+  }
+
+  .subtle {
+    color: #666;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+
+    code {
+      color: #e71678;
+    }
+
+    .subtle {
+      color: #aaa;
+    }
+  }
+}

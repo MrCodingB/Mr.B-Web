@@ -7,6 +7,7 @@ import ExperienceSection from "./sections/experience/experience";
 import EducationSection from "./sections/education/education";
 import ProjectsSection from "./sections/projects/projects";
 import HonorsAwardsSection from './sections/honors-awards/honors-awards';
+import LicencesCertificationsSection from './sections/licences-certifications/licences-certifications';
 
 import "./home.scss";
 
@@ -23,6 +24,8 @@ export default function Home() {
         <ExperienceSection />
 
         <EducationSection />
+
+        <LicencesCertificationsSection />
 
         <HonorsAwardsSection />
 

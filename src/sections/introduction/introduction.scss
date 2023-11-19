@@ -31,4 +31,12 @@ $img-radius: 10rem;
 
     shape-outside: circle(#{$img-radius + 1rem} at center top);
   }
+
+  @media (prefers-color-scheme: dark) {
+    border-top: 0.1rem solid #444;
+
+    .portrait-container {
+      border: 0.1rem solid #444;
+    }
+  }
 }

@@ -1,6 +1,31 @@
+import { ExperienceList } from '../models/ExperienceList';
 import { RangedContentItem } from '../models/contentItem';
 
-export const experiences: RangedContentItem[] = [
+export const experiences: (RangedContentItem | ExperienceList)[] = [
+  {
+    organisation: 'Arbeiter-Samariter-Bund Österreichs',
+    start: 'September 2023',
+    positions: [
+      {
+        title: 'Emergency Medical Technician (Rettungssanitäter)',
+        subtitle: '',
+        start: 'November 2023',
+        text: `
+**Skills:** EMT, Emergency Medical Services
+`
+      },
+      {
+        title: 'Civilian Alternative Service Worker',
+        subtitle: '',
+        start: 'September 2023',
+        text: `
+Civilian alternative service from Sep. 2023 - May 2024
+
+**Skills:** First Aid, CPR, AED
+`
+      }
+    ]
+  },
   {
     title: 'Full Stack Developer',
     subtitle: 'Signum Plus GmbH',

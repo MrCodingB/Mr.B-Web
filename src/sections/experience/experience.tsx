@@ -1,8 +1,8 @@
 import React from "react";
+import ExperienceCard from '../../components/experience-card/experience-card';
+import ExperienceListCard from '../../components/experience-list-card/experience-list-card';
 
 import { experiences } from "../../data/experiences";
-
-import ExperienceCard from '../../components/experience-card/experience-card';
 
 import "./experience.scss";
 
@@ -12,7 +12,9 @@ export default function ExperienceSection() {
       <h1>Professional Experience</h1>
 
       {experiences.map((e, i) => (
-        <ExperienceCard key={i} position={e} />
+        ('positions' in e)
+          ? <ExperienceListCard key={i} experiences={e} />
+          : <ExperienceCard key={i} position={e} />
       ))}
     </div>
   );

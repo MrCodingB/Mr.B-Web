@@ -20,12 +20,5 @@ export const contactDetails: ContactData[] = [
     href: 'https://www.linkedin.com/in/sebastian-woess',
     content: 'Sebastian Wöß',
     color: '#0A66C2'
-  },
-  {
-    name: 'Twitter',
-    icon: 'twitter',
-    href: 'https://twitter.com/@MrTweetingB',
-    content: '@MrTweetingB',
-    color: '#1B9DF0'
   }
 ];

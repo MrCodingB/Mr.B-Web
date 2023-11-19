@@ -1,15 +1,14 @@
 :root {
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans-serif: Roboto, sans-serif;
+  --font-monospace: Consolas, monospace;
 }
 
 body {
-  font-family: var(--bs-font-sans-serif);
+  font-family: var(--font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent
 }
@@ -79,12 +78,6 @@ p {
   margin-bottom: 1rem
 }
 
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit
-}
-
 ol,
 ul {
   padding-left: 2rem
@@ -104,15 +97,6 @@ ul ul {
   margin-bottom: 0
 }
 
-dt {
-  font-weight: 700
-}
-
-dd {
-  margin-bottom: .5rem;
-  margin-left: 0
-}
-
 blockquote {
   margin: 0 0 1rem
 }
@@ -125,12 +109,6 @@ strong {
 .small,
 small {
   font-size: .875em
-}
-
-.mark,
-mark {
-  padding: .2em;
-  background-color: #fcf8e3
 }
 
 sub,
@@ -153,7 +131,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: var(--bs-font-monospace);
+  font-family: var(--font-monospace);
   font-size: 1em;
   direction: ltr;
   unicode-bidi: bidi-override
@@ -175,7 +153,6 @@ pre code {
 
 code {
   font-size: .875em;
-  color: #d63384;
   word-wrap: break-word
 }
 
@@ -183,41 +160,9 @@ a>code {
   color: inherit
 }
 
-figure {
-  margin: 0 0 1rem
-}
-
 img,
 svg {
   vertical-align: middle
-}
-
-table {
-  caption-side: bottom;
-  border-collapse: collapse
-}
-
-caption {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  color: #6c757d;
-  text-align: left
-}
-
-th {
-  text-align: inherit;
-  text-align: -webkit-match-parent
-}
-
-tbody,
-td,
-tfoot,
-th,
-thead,
-tr {
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0
 }
 
 label {

@@ -22,7 +22,7 @@ export default class EducationCard extends Component<EducationCardProperties> {
           <h3>{this.education.subtitle}</h3>
         </div>
 
-        <h4>
+        <h4 className="subtle">
           {this.education.start} - {this.education.end ?? "present"}
         </h4>
 

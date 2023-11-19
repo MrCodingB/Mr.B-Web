@@ -22,7 +22,7 @@ export default class AwardHonorCard extends Component<AwardHonorCardProperties> 
           <h3>{this.honorOrAward.subtitle}</h3>
         </div>
 
-        <h4>{this.honorOrAward.date}</h4>
+        <h4 className="subtle">{this.honorOrAward.date}</h4>
 
         <MarkdownText text={this.honorOrAward.text} />
       </div>

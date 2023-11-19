@@ -2,4 +2,9 @@
   h1 {
     margin-bottom: 1.5rem;
   }
+
+  .project-list {
+    display: flex;
+    flex-direction: column;
+  }
 }
