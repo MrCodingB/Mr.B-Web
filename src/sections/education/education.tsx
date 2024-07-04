@@ -1,9 +1,6 @@
-import React from "react";
 import EducationCard from '../../components/education-card/education-card';
 
 import { educationPositions } from "../../data/education";
-
-import "./education.scss";
 
 export default function EducationSection() {
   return (

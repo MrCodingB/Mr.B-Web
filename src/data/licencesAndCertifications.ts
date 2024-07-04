@@ -13,11 +13,11 @@ export const licencesAndCertifications: RangedContentItem[] = [
 `
   },
   {
-    title: 'Rettungsschwimmabzeichen: Helfer',
+    title: 'Rettungsschwimmabzeichen: Retter',
     subtitle: 'Arbeiter-Samariter-Bund Österreichs',
-    start: '18. November 2023',
+    start: '13. April 2024',
     text: `
-"Rescue swimming badge: Helper"
+"Rescue swimming badge: Rescuer"
 
 **Skills:** Water Rescue, First Aid
 `

@@ -1,10 +1,6 @@
-import React from "react";
-
 import { honorsAndAwards } from "../../data/honorsAndAwards";
 
 import AwardHonorCard from "../../components/award-honor-card/award-honor-card";
-
-import "./honors-awards.scss";
 
 export default function HonorsAwardsSection() {
   return (

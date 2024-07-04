@@ -1,9 +1,6 @@
-import React from "react";
 import LicenceCertificationCard from '../../components/licence-certification-card/licence-certification-card';
 
 import { licencesAndCertifications } from '../../data/licencesAndCertifications';
-
-import "./licences-certifications.scss";
 
 export default function LicencesCertificationsSection() {
   return (

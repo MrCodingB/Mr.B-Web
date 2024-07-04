@@ -3,6 +3,18 @@ import { RangedContentItem } from '../models/contentItem';
 
 export const experiences: (RangedContentItem | ExperienceList)[] = [
   {
+    title: 'Owner & Software Architect',
+    subtitle: 'Wöß Sharp Software e.U.',
+    start: 'March 2024',
+    text: `
+We are a small company seated in Linz specialized on individual software development.
+From Web-Sites, Back-End APIs and Databases to application development and hardware programming:
+We can help you or your company to reach full potential using our custom made software solutions.
+
+[Get in touch!](https://w-sharp-s.at)
+`
+  },
+  {
     organisation: 'Arbeiter-Samariter-Bund Österreichs',
     start: 'September 2023',
     positions: [
@@ -11,6 +23,8 @@ export const experiences: (RangedContentItem | ExperienceList)[] = [
         subtitle: '',
         start: 'November 2023',
         text: `
+Voluntary since June 2024
+
 **Skills:** EMT, Emergency Medical Services
 `
       },
@@ -18,6 +32,7 @@ export const experiences: (RangedContentItem | ExperienceList)[] = [
         title: 'Civilian Alternative Service Worker',
         subtitle: '',
         start: 'September 2023',
+        end: 'May 2024',
         text: `
 Civilian alternative service from Sep. 2023 - May 2024
 

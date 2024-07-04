@@ -1,14 +1,14 @@
 import ExperienceCard from '../../components/experience-card/experience-card';
 import ExperienceListCard from '../../components/experience-list-card/experience-list-card';
 
-import { experiences } from "../../data/experiences";
+import { volunteering } from "../../data/volunteering";
 
-export default function ExperienceSection() {
+export default function VolunteeringSection() {
   return (
-    <div className="experience-section container">
-      <h1>Professional Experience</h1>
+    <div className="volunteering-section container">
+      <h1>Volunteering</h1>
 
-      {experiences.map((e, i) => (
+      {volunteering.map((e, i) => (
         ('positions' in e)
           ? <ExperienceListCard key={i} experiences={e} />
           : <ExperienceCard key={i} position={e} />
