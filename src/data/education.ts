@@ -2,6 +2,13 @@ import { RangedContentItem } from '../models/contentItem';
 
 export const educationPositions: RangedContentItem[] = [
   {
+    title: 'Johannes Kepler University (JKU)',
+    subtitle: 'Law',
+    start: '2024',
+    end: '2028',
+    text: ``
+  },
+  {
     title: 'Linzer Technikum',
     subtitle: 'Mechatronics',
     start: 'September 2019',
